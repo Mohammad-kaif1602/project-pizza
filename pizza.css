@@ -1,0 +1,1489 @@
+html {
+    scroll-behavior: smooth;
+    background: black;
+}
+
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #000000;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+#comp {
+
+    background-color: black;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section {
+    background-color: black;
+    scroll-behavior: smooth;
+
+}
+
+.navbar i {
+    /* background-color: rgb(105, 0, 0); */
+    color: white;
+    transition:  all ease 1s;
+    animation: 1s new;
+    font-size: 1.3rem;
+    
+
+}
+
+.th {
+    height: 50vh;
+    width: 90vw;
+}
+
+.navbar i:hover {
+    color: rgb(43, 255, 43);
+    filter: drop-shadow(0 0 5000px cyan);
+    
+animation: 1s ro;
+transform: scale(1.4);
+}
+@keyframes ro {
+    100%{
+        rotate:360deg;
+    }
+}
+@keyframes new {
+    1%{
+        rotate:360deg;
+    }
+}
+
+
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 0vh;
+    flex-wrap: wrap;
+}
+
+.main .main-image img {
+    position: relative;
+    top: 19vh;
+}
+
+.main .main-text {
+    font-size: 1rem;
+    position: relative;
+    /* top: -90; */
+}
+
+.main .main-text h1 {
+    font-size: 3rem;
+    position: relative;
+    /* top: -90vh; */
+    left: 5vw;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main .main-text h1 span {
+    color: #fac031;
+    font-family: mv boli;
+    line-height: 10vh;
+    font-size: 4rem;
+}
+
+.section p {
+    width: 40vw;
+    text-align: justify;
+    position: relative;
+    left: 5vw;
+    bottom: 15vh;
+    line-height: 4vh;
+    color: wheat;
+    font-size: 1rem;
+}
+
+.section .main-btn {
+    background: #fac031;
+    position: relative;
+    left: 5vw;
+    bottom: 15vh;
+    width: 10vw;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 7px;
+    padding-left: 20px;
+
+}
+
+.section .main-btn a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.section .main-btn i {
+
+    position: relative;
+    left: 3px;
+    top: 1px;
+}
+
+.section .main-btn:hover i {
+    transform: translateX(7px);
+    transition: .5s;
+}
+
+/* about on  */
+.about {
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.about .about-main .image img {
+    height: 60vh;
+    position: relative;
+    left: -1vw;
+    filter: drop-shadow(0 0 50px green);
+    animation: rotate 30s linear infinite;
+
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.about .about-text {
+    position: relative;
+    left: 55vw;
+    top: -60vh;
+    width: 35vw;
+    /* font-size: .5rem; */
+    color: white;
+    text-align: justify;
+
+}
+
+.about .about-text h1 {
+    font-size: 5.5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5rem;
+    color: #fac031;
+
+}
+
+.about .about-text h1 span {
+    color: #ffffff;
+    font-family: cursive;
+    font-size: 5rem;
+    position: relative;
+    top: -.5vh;
+
+}
+
+.about .about-text h3 {
+    position: relative;
+    top: 2vh;
+    font-size: 1.7rem;
+    color: rgb(74, 255, 74);
+}
+
+.about .about-text p {
+    position: relative;
+    top: 4vh;
+    line-height: 4vh;
+    font-size: 1rem;
+    color: wheat;
+}
+
+.about-btn {
+    background-color: #fac031;
+    position: relative;
+    top: -54vh;
+    left: 55.2vw;
+    width: 10vw;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.about-btn a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.about-btn a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.about-btn:hover i {
+    transform: translateX(7px);
+    transition: .5s;
+
+}
+
+
+/* menu on */
+
+.menu {
+    /* width: 100%; */
+    background-color: black;
+    position: relative;
+    top: -30vh;
+    flex-wrap: wrap;
+
+
+
+}
+
+.menu h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 4rem;
+    filter: drop-shadow(0 0 5px cyan);
+    /* margin-bottom: 10vh; */
+}
+
+.menu h1 span {
+    color: cyan;
+    font-family: mv boli;
+    font-size: 5rem;
+    position: relative;
+    top: 0vh;
+    left: 1vw;
+
+}
+
+.menu h1 span::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: .4vh;
+    background-color: cyan;
+    transition: 0.5s;
+}
+
+.menu .menu-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 70px;
+    grid-gap: 15px;
+
+}
+
+.menu .menu-box .menu-card {
+    box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 5px cyan inset;
+    border-radius: 13px;
+    border: 6px double cyan;
+    width: 19vw;
+    height: 60vh;
+    position: relative;
+    top: -2vh;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 3vh;
+    transition: .5s;
+}
+
+.menu .menu-box .menu-card:hover {
+    box-shadow: 0 0 20px cyan;
+    border: 4px double cyan;
+    transition: .5s;
+}
+
+.menu .menu-box .menu-card .menu-info h2 {
+
+    position: relative;
+    top: 2vh;
+    color: #fac031;
+    font-size: 1.5rem;
+    text-align: center;
+    /* position: sticky; */
+}
+
+.menu .menu-box .menu-card .menu-info p {
+    position: relative;
+    top: 2vh;
+    color: whitesmoke;
+    font-size: .9rem;
+    text-align: center;
+}
+
+.menu .menu-box .menu-card h3 {
+    position: relative;
+    top: 0vh;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.menu .menu-box .menu-card .menu-icon {
+    position: relative;
+    top: 0vh;
+    color: #fac031;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.menu .menu-box .menu-card .menu-btn {
+    position: relative;
+    top: 1.2vh;
+    left: 3.2vw;
+    padding: 7px;
+    text-align: center;
+    box-shadow: inset 0 0 10px white;
+    border-radius: 8px;
+    width: 10vw;
+    z-index: +1;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.menu .menu-box .menu-card .menu-btn:hover {
+    background-color: whitesmoke;
+    color: black;
+    transition: .5s;
+    box-shadow: 0 0 15px whitesmoke;
+}
+
+.menu .menu-box .menu-card .menu-image {
+    /* overflow: hidden; */
+    border-radius: 10px;
+    filter: drop-shadow(0 0 20px cyan);
+    transition: all ease .8s;
+
+
+}
+
+.menu .menu-box .menu-card .menu-image img {
+    width: 11vw;
+    height: 100%;
+    position: relative;
+    left: 3vw;
+    /* padding: 10px; */
+    border-radius: 10px;
+    object-fit: cover;
+    transition: .5s;
+    animation: rotate 20s linear infinite;
+
+
+
+}
+
+.menu .menu-box .menu-card:hover .menu-image {
+    /* height: 30vh;
+   width: 17vw; */
+    transition: all ease .8s;
+    /* transform: translateX(-50px); */
+    transform: translateY(-50px);
+    /* transform: translateZ(-50px); */
+}
+
+
+
+
+/* menu off */
+
+/* galary on  */
+
+.galary {
+    background-color: black;
+    position: relative;
+    top: -30vh;
+}
+
+.galary h1 {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    filter: drop-shadow(0 0 5px #fac031);
+
+}
+
+.galary h1 span {
+    color: #fac031;
+    font-family: mv boli;
+    font-size: 5rem;
+    position: relative;
+    top: -1vh;
+
+}
+
+.galary h1 span::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 16vh;
+    left: 0;
+    right: 0;
+    height: .4vh;
+    background-color: #fac031;
+    transition: 0.5s;
+}
+
+.galary .galary-box {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    grid-gap: 20px;
+}
+
+.galary .galary-box .galary-card {
+    filter: drop-shadow(0 0 5px rgb(255, 255, 255));
+    width: 20vw;
+    height: 100%;
+    /* border-radius: 10px; */
+}
+
+.galary .galary-box .galary-card video {
+    width: 20vw;
+    height: 40vh;
+
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: +1;
+}
+
+
+/* review on  */
+
+.review {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    background-color: black;
+    position: relative;
+    top: -30vh;
+
+}
+
+
+.review h1 {
+
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 4rem;
+    filter: drop-shadow(0 0 5px cyan);
+
+}
+
+.review h1 span {
+    color: cyan;
+    font-family: mv boli;
+    font-size: 5rem;
+    position: relative;
+    top: -2vh;
+    left: 1vw;
+}
+
+.review h1 span::after {
+
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 13vh;
+    right: 0;
+    height: .4vh;
+    background-color: cyan;
+    transition: 0.5s;
+}
+
+.review .review-box {
+
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    top: 5vh;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr ; */
+}
+
+.review .review-box .review-card {
+
+
+    height: 100%;
+    width: 22vw;
+    box-shadow: 0 0 5px white;
+    border-radius: 10px;
+    padding: 8px;
+    border: 4px double cyan;
+
+
+}
+
+.review .review-box .review-card:hover {
+    box-shadow: 0 0 14px cyan;
+    transition: .5s;
+}
+
+.review .review-box .review-card .review-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.review .review-box .review-card:hover .review-profile {
+    transform: translateY(-60px);
+    transition: 0.5s;
+
+}
+
+
+
+.review .review-box .review-card .review-profile img {
+
+    height: 25vh;
+    width: 60%;
+    object-fit: cover;
+    object-position: cover;
+    border-radius: 50%;
+    border: 3px solid cyan;
+    box-shadow: 0 0 20px cyan;
+
+}
+
+
+.review .review-box .review-card .review-text {
+    position: relative;
+    top: 2vh;
+    color: whitesmoke;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 3.5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.review .review-box .review-card .review-text .name {
+    transition: .5s;
+}
+
+.review .review-box .review-card:hover .review-text .name {
+    transform: translateY(-50px);
+}
+
+.review .review-box .review-card .review-text .review-icon {
+    transition: .5s;
+    color: #fac031;
+}
+
+.review .review-box .review-card:hover .review-text .review-icon {
+    transform: translateY(-30px);
+}
+
+.review .review-box .review-card .review-text .review-social i {
+    font-size: 1rem;
+    opacity: 0;
+    color: cyan;
+    cursor: pointer;
+    transition: .5s;
+    margin: 5px 3px;
+
+}
+
+.review .review-box .review-card:hover .review-text .review-social i {
+    opacity: 1;
+}
+
+
+.review .review-box .review-card .review-text p {
+    text-align: justify;
+    padding: 0px 13px;
+}
+
+/* review off  */
+
+
+
+/* order on  */
+
+.order {
+    height: 100vh;
+    width: 100%;
+    background: black;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: -30vh;
+
+
+}
+
+.order h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: whitesmoke;
+    /* background: black; */
+    font-size: 4rem;
+    filter: drop-shadow(0 0 5px cyan);
+}
+
+.order h1 span {
+    font-size: 5rem;
+    color: cyan;
+    font-family: mv boli;
+    position: relative;
+    top: -2vh;
+    left: 1vw;
+}
+
+.order h1 span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: .4vh;
+    background-color: cyan;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 13vh;
+}
+
+.order .order-main {
+    display: flex;
+    gap: 8vw;
+    padding: 0 5vw;
+
+}
+
+.order .order-main .order-image img {
+    /* height: 70vh;
+    width: 100%; */
+}
+
+.order .order-main form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4vw;
+    position: relative;
+    top: 5vh;
+}
+
+.order .order-main form .input {
+    font-size: 1.2rem;
+    color: whitesmoke;
+    margin-bottom: 1vh;
+    font-family: mv boli;
+
+
+}
+
+.order .order-main form .input input {
+    border: 4px double cyan;
+    /* box-shadow: 0 0 5px cyan; */
+    filter: drop-shadow(0 0 5px cyan);
+    padding: 1.5vh .5vw;
+    font-family: mv boli;
+    /* border-radius: 8px; */
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: whitesmoke;
+}
+
+
+.order .order-main form .input input:focus {
+    /* border: 4px double cyan; */
+    outline: none;
+    /* box-shadow: 0 0 5px cyan ,0 0 5px cyan inset; */
+    transition: .2s;
+
+}
+
+.order .order-main form  .order-btn  {
+
+    height: 7vh;
+    width: 60%;
+    /* background: cyan; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    text-decoration: none;
+    background: black;
+    border-radius: 5px;
+    transition: .5s;
+    border: 4px double cyan;
+    font-family: mv boli;
+    box-shadow: 0 0 5px cyan, inset 0 0 5px cyan;
+
+}
+button{
+    background: black;
+    border: none;
+}
+.order .order-main form .order-btn:hover {
+    box-shadow: 0 0 15px cyan, inset 0 0 5px cyan;
+
+    transition: .3s;
+}
+
+/* order off  */
+
+/* team on  */
+
+
+.team {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: -30vh;
+
+
+}
+
+.team h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin-bottom: 10vh;
+    color: wheat;
+    filter: drop-shadow(0 0 5px cyan);
+}
+
+.team h1 span {
+    font-family: mv boli;
+    font-size: 5rem;
+    position: relative;
+    top: -1vh;
+    color: cyan;
+    left: 1vw;
+    filter: drop-shadow(0 0 0px cyan);
+}
+
+.team h1 span::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: .4vh;
+    background-color: cyan;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter: drop-shadow(0 0 10px cyan);
+    top: 15vh;
+}
+
+.team .team-box {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    gap: 3vw;
+    top: 13%;
+
+}
+
+.team .team-box .profile {
+    width: 47vh;
+    height: 47vh;
+    border-radius: 50%;
+    box-shadow: 0 0 10px cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    text-align: center;
+    position: sticky;
+    border: 2px solid cyan;
+
+}
+
+
+.team .team-box .profile:hover {
+    transition: 1s;
+    border-radius: 20px;
+    height: 60vh;
+    box-shadow: 0 0 5px cyan;
+}
+
+.team .team-box .profile .video video {
+    width: 100%;
+    /* height: 40vh; */
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    transition: .5s;
+    z-index: +1;
+    box-shadow: 0 0 10px cyan;
+    background-size: cover;
+    overflow: hidden;
+    border: 3px solid cyan;
+
+
+
+}
+
+.team .team-box .profile .video .video1 video {
+    width: 18vw;
+    height: 38vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    transition: .5s;
+    z-index: +1;
+    background: url(./images/team1.jpeg);
+
+    background-size: cover;
+
+}
+
+.team .team-box .profile .video .video2 video {
+    width: 18vw;
+    height: 38vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    transition: .5s;
+    z-index: +1;
+    background: url(./images/team2.jpeg);
+
+    background-size: cover;
+
+}
+
+.team .team-box .profile .video .video3 video {
+    width: 18vw;
+    height: 38vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    transition: .5s;
+    z-index: +1;
+    background: url(./images/team3.jpeg);
+
+    background-size: cover;
+
+}
+
+.team .team-box .profile .video .video4 video {
+    width: 18vw;
+    height: 38vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    transition: .5s;
+    z-index: +1;
+    background: url(./images/team4.jpeg);
+
+    background-size: cover;
+
+}
+
+.team .team-box .profile:hover .video video {
+
+    border-radius: 20px;
+    margin-top: -40vh;
+    transition: 1s;
+    box-shadow: 0 0 20px cyan;
+
+
+}
+
+
+.team .team-box .profile .info {
+
+    position: absolute;
+    text-align: center;
+    /* transition: 1s; */
+    color: whitesmoke;
+    font-size: 1rem;
+    z-index: -1;
+    opacity: 0;
+
+
+
+}
+
+.team .team-box .profile:hover .info {
+
+    top: 60%;
+    transition: 1s;
+    z-index: +1;
+    opacity: 1;
+
+}
+
+
+.team .team-box .profile .info .name {
+    color: cyan;
+}
+
+.team .team-box .profile .info .bio {
+    width: 70%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.team .team-box .profile .info .team-icon i {
+
+
+    margin: 20px 0px 5px 0;
+    cursor: pointer;
+    transition: .5s;
+    margin-right: 1vw;
+
+}
+
+.team .team-box .profile .info .team-icon i:hover {
+    transform: translateY(-10px);
+    transition: .5s;
+    color: cyan;
+}
+
+html.sr .card {
+    visibility: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(greenyellow, yellowgreen, green);
+    border-radius: 15px;
+    box-shadow: 2px 2px 70px whitesmoke;
+}
+
+
+   /* cart on */
+
+.pizza-main {
+
+    height: 64vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.pizza-main .pizza-image img {
+    width: 18vw;
+    height: 40vh;
+    filter: drop-shadow(0 0 30px green);
+    animation: rotate 30s linear infinite;
+}
+
+.pizza-main .pizza-name {
+    font-size: 2vw;
+    position: relative;
+    top: 10vh;
+    
+    left: 1vw;
+
+}
+
+.pizza-main .pizza-quantity {
+    font-size: 1.2vw;
+    position: relative;
+    width: 5vw;
+    height: 20vh;
+    top: 6vh;
+    /* color: aqua;
+    filter: drop-shadow(0 0 10px cyan); */
+    font-family: mv boli;
+    
+}
+
+.pizza-main .pizza-quantity input:focus{
+    outline: none;
+   
+}
+.pizza-main .pizza-quantity input{
+    background: transparent;
+    color: aqua;
+    filter: drop-shadow(0 0 4px cyan);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 10px;
+    
+}
+
+.pizza-main .pizza-price {
+    color: rgb(72, 255, 0);
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: 3vh;
+    /* left: 3vw; */
+}
+
+.pizza-main .pizza-price del {
+    color: red;
+    margin-right: 5px;
+    font-size: 1.3rem;
+}
+
+.pizza-main #pizza-pay {
+
+    color: white;
+    background-color: rgb(0, 185, 0);
+    box-shadow: 2px 2px 7px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 8vh;
+    width: 13vw;
+    font-size: 1.3rem;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    position: relative;
+    left: 2vw;
+    top: 5vh;
+    transition: .5s;
+
+}
+.pizza-main #pizza-pay:hover{
+    color:cyan;
+    box-shadow: 2px 2px 7px cyan;
+    transition: .5s;
+    transform: translateY(5px);
+}
+
+.pizza-main #pizza-pay2 {
+
+    color: white;
+    background-color: rgb(0, 185, 0);
+    box-shadow: 2px 2px 7px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 8vh;
+    width: 13vw;
+    font-size: 1.3rem;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    position: relative;
+    left: 2vw;
+    top: 5vh;
+    transition: .5s;
+
+}
+.pizza-main #pizza-pay2:hover{
+    color:cyan;
+    box-shadow: 2px 2px 7px cyan;
+    transition: .5s;
+    transform: translateY(5px);
+}
+.pizza-main #pizza-pay3 {
+
+    color: white;
+    background-color: rgb(0, 185, 0);
+    box-shadow: 2px 2px 7px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 8vh;
+    width: 13vw;
+    font-size: 1.3rem;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    position: relative;
+    left: 2vw;
+    top: 5vh;
+    transition: .5s;
+
+}
+.pizza-main #pizza-pay3:hover{
+    color:cyan;
+    box-shadow: 2px 2px 7px cyan;
+    transition: .5s;
+    transform: translateY(5px);
+}
+.pizza-main #pizza-pay4 {
+
+    color: white;
+    background-color: rgb(0, 185, 0);
+    box-shadow: 2px 2px 7px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 8vh;
+    width: 13vw;
+    font-size: 1.3rem;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    position: relative;
+    left: 2vw;
+    top: 5vh;
+    transition: .5s;
+
+}
+.pizza-main #pizza-pay4:hover{
+    color:cyan;
+    box-shadow: 2px 2px 7px cyan;
+    transition: .5s;
+    transform: translateY(5px);
+}
+.pizza-main #pizza-pay5 {
+
+    color: white;
+    background-color: rgb(0, 185, 0);
+    box-shadow: 2px 2px 7px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 8vh;
+    width: 13vw;
+    font-size: 1.3rem;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    position: relative;
+    left: 2vw;
+    top: 5vh;
+    transition: .5s;
+
+}
+.pizza-main #pizza-pay5:hover{
+    color:cyan;
+    box-shadow: 2px 2px 7px cyan;
+    transition: .5s;
+    transform: translateY(5px);
+}
+.pizza-main #pizza-pay6 {
+
+    color: white;
+    background-color: rgb(0, 185, 0);
+    box-shadow: 2px 2px 7px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 8vh;
+    width: 13vw;
+    font-size: 1.3rem;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    position: relative;
+    left: 2vw;
+    top: 5vh;
+    transition: .5s;
+
+}
+.pizza-main #pizza-pay6:hover{
+    color:cyan;
+    box-shadow: 2px 2px 7px cyan;
+    transition: .5s;
+    transform: translateY(5px);
+}
+.pizza-main #pizza-pay7 {
+
+    color: white;
+    background-color: rgb(0, 185, 0);
+    box-shadow: 2px 2px 7px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 8vh;
+    width: 13vw;
+    font-size: 1.3rem;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    position: relative;
+    left: 2vw;
+    top: 5vh;
+    transition: .5s;
+
+}
+.pizza-main #pizza-pay7:hover{
+    color:cyan;
+    box-shadow: 2px 2px 7px cyan;
+    transition: .5s;
+    transform: translateY(5px);
+}
+.pizza-main #pizza-pay8 {
+
+    color: white;
+    background-color: rgb(0, 185, 0);
+    box-shadow: 2px 2px 7px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 8vh;
+    width: 13vw;
+    font-size: 1.3rem;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    position: relative;
+    left: 2vw;
+    top: 5vh;
+    transition: .5s;
+
+}
+.pizza-main #pizza-pay8:hover{
+    color:cyan;
+    box-shadow: 2px 2px 7px cyan;
+    transition: .5s;
+    transform: translateY(5px);
+}
+
+
+.pizza-main .pizza-pay {
+
+    color: white;
+    background-color: rgb(255, 35, 35);
+    box-shadow: 2px 2px 7px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 8vh;
+    width: 13vw;
+    font-size: 1.3rem;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    position: relative;
+    left: 2vw;
+    top: 5vh;
+    transition: .5s;
+
+}
+.pizza-main .pizza-pay:hover{
+    color:cyan;
+    box-shadow: 2px 2px 7px cyan;
+    transition: .5s;
+    transform: translateY(5px);
+}
+/* cart off */
+
+
+
+/* online on  */
+
+/* From Uiverse.io by zaeniahmad-id */ 
+.moda {
+    width: fit-content;
+    height: fit-content;
+    background: #ffffff;
+    box-shadow:
+      0px 187px 75px rgba(0, 0, 0, 0.01),
+      0px 105px 63px rgba(0, 0, 0, 0.05),
+      0px 47px 47px rgba(0, 0, 0, 0.09),
+      0px 12px 26px rgba(0, 0, 0, 0.1),
+      0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    max-width: 450px;
+    margin-bottom: 10px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .payment--options {
+    width: calc(100% - 40px);
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .payment--options button {
+    height: 55px;
+    background: #f2f2f2;
+    border-radius: 11px;
+    padding: 0;
+    border: 0;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .payment--options button svg {
+    height: 18px;
+  }
+  
+  .payment--options button:last-child svg {
+    height: 22px;
+  }
+  
+  .separator {
+    width: calc(100% - 20px);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    color: #8b8e98;
+    margin: 0 10px;
+  }
+  
+  .separator > p {
+    word-break: keep-all;
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 11px;
+    margin: auto;
+  }
+  
+  .separator .line {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background-color: #e8e8e8;
+    margin: auto;
+  }
+  
+  .credit-card-info--form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input_container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .split {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 15px;
+  }
+  
+  .split input {
+    width: 100%;
+  }
+  
+  .input_label {
+    font-size: 10px;
+    color: #8b8e98;
+    font-weight: 600;
+  }
+  
+  .input_field {
+    width: auto;
+    height: 40px;
+    padding: 0 0 0 16px;
+    border-radius: 9px;
+    outline: none;
+    background-color: #f2f2f2;
+    border: 1px solid #e5e5e500;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+  
+  .input_field:focus {
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 0px 2px #242424;
+    background-color: transparent;
+  }
+  
+  #kaif {
+    height: 55px;
+    background: #f2f2f2;
+    border-radius: 11px;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #363636 0%, #1b1b1b 50%, #000000 100%);
+    box-shadow:
+      0px 0px 0px 0px #ffffff,
+      0px 0px 0px 0px #000000;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+  
+  .purchase--btn:hover {
+    box-shadow:
+      0px 0px 0px 2px #ffffff,
+      0px 0px 0px 4px #0000003a;
+  }
+  
+  /* Reset input number styles */
+  .input_field::-webkit-outer-spin-button,
+  .input_field::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .input_field[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+
+
+/* online off  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* team off  */
