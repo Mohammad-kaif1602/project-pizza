@@ -70,8 +70,8 @@
         /* width: 60vw; */
         height: 18vh;
         position: relative;
-        top: 12vh;
-        left: 4vw;
+        top: 13.5vh;
+        left: 5vw;
         filter: drop-shadow(0 0 20px cyan);
     }
     .about .about-main  .image1 img {
